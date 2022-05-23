@@ -13,7 +13,7 @@ if(isset($_POST['Nombre'])&& isset($_POST['Apellido'])&& isset($_POST['Usuario']
 
     $res = $sentencia->execute();
     if($res === true){
-        header("Location: http://localhost/Repaso-PHP/CRUD/ver.php");
+        header("../CRUD/ver.php");
     }else{
         echo "error1";
     }
