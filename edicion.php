@@ -13,7 +13,7 @@ if(isset($_POST['Nombre'])&& isset($_POST['Apellido'])&& isset($_POST['Usuario']
 
     $res = $sentencia->execute();
     if($res === true){
-        header("../CRUD/ver.php");
+        header("ver.php");
     }else{
         echo "error1";
     }

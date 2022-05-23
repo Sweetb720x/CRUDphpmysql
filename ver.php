@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../CRUD/estilos/estilosver.css">
+    <link rel="stylesheet" href="estilos/estilosver.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <title>Ver Datos</title>
 </head>
@@ -76,8 +76,8 @@
                                 <td><?php echo $resu['apellido']; ?></td>
                                 <td><?php echo $resu['usuario']; ?></td>
                                 <td><?php echo $resu['clave']; ?></td>
-                                <td><a href="../CRUD/eliminar.php?id=<?php echo $resu['id']?>" class="borrar"><i class="fa fa-trash"></i></a></td>
-                                <td><a href="../CRUD/editar.php?id=<?php echo $resu['id']?>" class="editar"><i class="fa fa-wrench"></i></a></td>
+                                <td><a href="eliminar.php?id=<?php echo $resu['id']?>" class="borrar"><i class="fa fa-trash"></i></a></td>
+                                <td><a href="editar.php?id=<?php echo $resu['id']?>" class="editar"><i class="fa fa-wrench"></i></a></td>
                             </tr>                     
                         <?php
                     }

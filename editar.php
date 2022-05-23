@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CRUD/estilos/estilosver.css">
+    <link rel="stylesheet" href="estilos/estilosver.css">
     <title>Editar</title>
 </head>
 <body class="bodyAgregar">
     <?php
     if(!isset($_GET['id'])){
-        header("../CRUD/ver.php");
+        header("ver.php");
     }
     $id = $_GET['id'];
 
@@ -21,7 +21,7 @@
     ?>
     <center>
         <p>Editar usuario</p><hr>
-        <form action="../CRUD/edicion.php?id=<?php echo $id ?>" method="post">
+        <form action="edicion.php?id=<?php echo $id ?>" method="post">
             <label for="Nombre" class="ilabel2">Nombre</label>
             <input type="text" class="itext2" value="<?php echo $cliente->nombre;?>" name="Nombre" id=""><br>
             <label for="" class="ilabel2">Apellido</label>

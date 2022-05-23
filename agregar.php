@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CRUD/estilos/estilosver.css">
+    <link rel="stylesheet" href="estilos/estilosver.css">
     <title>Agregar Datos</title>
 </head>
 <body class="bodyAgregar">    
@@ -16,7 +16,7 @@
         <input type="text" class="itext2" placeholder="Usuario" name="Usuario"><br>
         <input type="text" class="itext2" placeholder="Clave" name="Clave"><br>
         <input type="submit" class="btnAgregar" value="Guardar">
-        <a href="../CRUD" class="atras">Volver</a>
+        <a href="index.php" class="atras">Volver</a>
     </form>
 </center>
 <div id="datos">
