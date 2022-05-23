@@ -1,0 +1,128 @@
+.bodyAgregar{
+    font-family: sans-serif;
+    height: 100vh;/*altura 100 del view height*/
+    background-image: url(../imagenes/warriorlogo2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.bodyVer{
+    font-family: sans-serif;
+    height: 100vh;/*altura 100 del view height*/
+    background-image: url(../imagenes/warriorlogo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bodyMenu{
+    font-family: sans-serif;
+    height: 120vh;/*altura 100 del view height*/
+    background-image: url(../imagenes/cyberwarriorlogo3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    color: #009cff;
+}
+h2{
+    color: rgb(253, 28, 28);
+    font-size: 35px;
+}
+table, tr, td{
+    background-color: black; 
+    border-bottom: 1px solid #fff; 
+    border-right: 1px solid #fff; 
+    border-radius: 1px;
+    color: rgb(224, 27, 27);
+}
+.itext{
+    width: 150px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid darkgray;
+    outline: none;
+    height: 20px;
+    color: #009DFF;
+    font-size: 16px;
+}
+.itext:hover{
+    border-bottom: 2px solid #009DFF;
+}
+.itext2{
+    width: 250px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid darkgray;
+    outline: none;
+    height: 20px;
+    color: red;
+    font-size: 16px;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.itext2:hover{
+    border-bottom: 2px solid red;
+}
+.btnBuscar{
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 65px;
+    font-size: 13px;
+    color: black;
+    border-radius: 10px;
+}
+.btnAgregar{
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.btnBuscar:hover,
+.btnAgregar:hover{
+    transition: .9s ease all;
+    transition-delay: 0.1s;
+    background-color: #009DFF;
+    color: #fff;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.borrar:hover{
+    transition: .9s ease all;
+    transition-delay: 0.1s;
+    color: red;
+}
+.editar:hover{
+    transition: .9s ease all;
+    transition-delay: .1s;
+    color: rgb(0, 255, 0);
+}
+.atras:hover{
+    font-size: 20px;
+    color: #009DFF;
+}
+p{
+    color: #009DFF;
+    font-size: 19px;
+}
+.menu{
+    text-decoration: none;
+    width: 50px;
+}
+.menu:hover{
+    transition: 1.5s ease all;
+    transition-delay: .1s;
+    color: white;
+    font-size: 28px;
+}
+.ilabel2{
+    color: black;
+    font-style: italic;
+}
