@@ -10,7 +10,7 @@ $sql = $bd->prepare("DELETE FROM tcliente WHERE id = '$id'");
 $sql->execute();
 
 if($sql == true){
-    header('Location: http://localhost/Repaso-PHP/CRUD/ver.php');
+    header('../CRUD/ver.php');
 }else{
     echo "Ha ocurrido un error";
 }

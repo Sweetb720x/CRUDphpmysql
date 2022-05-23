@@ -11,8 +11,8 @@
     <center>
         <form action="/">
             <h2>CRUD</h2><hr><br>
-            <a href="http://localhost/Repaso-PHP/CRUD/agregar.php" class="menu">Agregar</a><br>
-            <a href="http://localhost/Repaso-PHP/CRUD/ver.php" class="menu">Ver</a><br><br>
+            <a href="../CRUD/agregar.php" class="menu">Agregar</a><br>
+            <a href="../CRUD/ver.php" class="menu">Ver</a><br><br>
         </form>
     </center>
 <hr>

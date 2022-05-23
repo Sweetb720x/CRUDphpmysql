@@ -10,7 +10,7 @@
 <body class="bodyAgregar">
     <?php
     if(!isset($_GET['id'])){
-        header("Location: http://localhost/Repaso-PHP/CRUD/ver.php");
+        header("../CRUD/ver.php");
     }
     $id = $_GET['id'];
 
@@ -21,7 +21,7 @@
     ?>
     <center>
         <p>Editar usuario</p><hr>
-        <form action="http://localhost/Repaso-PHP/CRUD/edicion.php?id=<?php echo $id ?>" method="post">
+        <form action="../CRUD/edicion.php?id=<?php echo $id ?>" method="post">
             <label for="Nombre" class="ilabel2">Nombre</label>
             <input type="text" class="itext2" value="<?php echo $cliente->nombre;?>" name="Nombre" id=""><br>
             <label for="" class="ilabel2">Apellido</label>
